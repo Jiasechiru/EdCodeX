@@ -1,0 +1,87 @@
+.profile-header{
+    position: sticky;
+
+}
+
+.main-container{
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.article-container{
+    background-color: rgb(26,26,26);
+}
+
+.aside-block{
+    background-color: rgb(134, 134, 134);
+    height: 100vh;
+    width: 10vw;
+    border-top: 1px solid rgb(21, 21, 21);
+}
+
+.profile-info-top{
+    
+    display: flex;
+    height: 160px;
+}
+
+.profile-ava{
+    height: 160px;
+    width: 160px;
+    background-color:aqua;
+    border-radius: 80px;
+    margin-right: 21px;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-nickname{
+    background-image: linear-gradient(to right, #FF9A00, #25EAA9);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.profile-mail{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.score-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45%;
+
+}
+
+.score-bar{
+    width: 26%;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.score-number{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 300;
+}
+.score-name{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}

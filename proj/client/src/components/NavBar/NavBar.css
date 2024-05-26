@@ -1,0 +1,102 @@
+.NavBar{
+    font-size: 50px;
+}
+
+
+header{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #323232;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 100vw;
+
+}
+
+.NavBar{
+    width: 50vw;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar ul{
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type:none;
+    height: 80%;
+    width: 100%;
+}
+
+.NavBar li{
+    height: 100%;
+    width: 18%;
+    border-radius: 18px;
+
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.NavBar li a{
+    font-size: 20px;
+    font-weight:600;
+    text-decoration: none;
+
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.NavBar li:hover{
+    cursor: pointer;
+}
+
+
+.LogoArea {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoArea a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.LogoArea a img{
+    height: 45px;
+    width: 45px;
+}
+
+.LogoArea a span{
+    margin-left: 0.3vw;
+    font-size: 38px;
+    font-weight: 450;
+
+
+    background-image: linear-gradient(to right, #FF9A00, #25EAA9);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ProfileArea {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 2vw;
+}
+
+
+#HeaderProfileImg{
+    border: 1px solid #42013F;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
